@@ -1,0 +1,53 @@
+* {
+    /*background-color: black;*/
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #1e0745;
+    color: white;
+}
+
+h1 {
+    font-family: helvetica;
+    color:burlywood;
+    font-size: 60px;
+    text-align: right;
+}
+
+h4 {
+    font-family: arial;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+}
+
+#logo_pcpal {
+    width: 180px;
+    margin: 20px;
+}
+
+#foto_pcpal {
+    height: 500px;
+    margin: 30px;
+}
+
+#fb img {
+    width: 60px;
+}
+
+#tw img {
+    width: 60px;
+}
+
+#ig img {
+    width: 60px;
+}
+
+#yt img {
+    width: 60px;
+}
+
+#gh img {
+    width: 60px;
+}
