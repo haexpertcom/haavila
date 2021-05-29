@@ -1,9 +1,10 @@
 <!Doctype html>
 <html lang="es">
+
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Hector Avila">
-        <meta name="description" content="Sitio Personal de presentacion profesional, divulgacion tecnica de informacion y consejos.">
+        <meta name="description" content="Sitio Personal para presentacion de CV personal, divulgacion tecnica de informacion y consejos.">
         <title>HA</title>
         <!--FAVICON-->
         <link rel="icon" type="image/png" href="/images/ha16x16.png" sizes="16x16">
@@ -13,34 +14,44 @@
         <link rel="stylesheet" href="/style.css">
         <script src="/main.js"></script>
     </head>
+    
     <body>
-        <!--Logo-->
-        <div id="1">
-            <img id="logo_pcpal" src="/images/logo_pcpal.png" alt="logo">
+        <!-- CONTENEDOR PRINCIPAL -->
+        <div class="ContenedorPcpal">
+
+            <!--Logo-->
+            <div class="Logo">
+                <img class="Logo__Img" src="/images/logo_pcpal.png" alt="logo">
+            </div>
+
+            <!--Datos de contacto-->
+            <div class="DatosSup">
+                <p class="DatoSsup__Celular"><strong> 15-5562-3245</strong></p>
+                <p class="DatoSsup__Mail"><strong>info@haavila.tk</strong></p>
+            </div>
+            
+            <!--Principal-->
+            <div class="CajaCentral">
+                <h1 class="CajaCentral__Cabecera">Bienvenidos</h1>
+                <h4 class="CajaCentral__Subcabecera">HA, es un emprendimiento tecnico que presta servicios en Electricidad, Seguriad Electronica e Informatica a Particulares y Comercios</h4>
+                <button class="BotonContacto">Saber Mas</button>
+                <button class="BotonCv">Ver CV</button>
+                <button class="BotonBlog">Blog</button>
+            </div>
+            
+            <!--Foto-->
+            <div class="CajaCentral__FotoPcpal">
+                <img class="CajaCentral__FotoPcpal--Img" src="/images/foto_pcpal.png" alt="">
+            </div>
+            
+            <!--Redes Sociales-->
+            <div class=CajaRS">
+                <a href=""><img class="CajaRS__Fb"src="/images/fb_icon.png" alt=""></a>
+                <a href=""><img class="CajaRS__Ig"src="/images/ig_icon.png" alt=""></a>
+                <a href=""><img class="CajaRS__Yt"src="/images/yt_icon.png" alt=""></a>
+                <a href=""><img class="CajaRS__Gh"src="/images/gh_icon.png" alt=""></a>
+            </div>
         </div>
-        <!--Datos de contacto-->
-        <div id="2">
-            <a href="">Tel: 15-5562-3245</a>
-            <a href="">info@haavila.tk</a>
-        </div>
-        <!--Principal-->
-        <div id="3">
-            <h1>HA - Servicio Tecnico</h1>
-            <h4>Servicios Profesionales para Negocios y Particulares, en Electricidad, Cableado Estructurado, Seguridad Electronica e Informatica.</h4>
-            <button>Contactanos</button>
-            <button>Saber Mas</button>
-        </div>
-        <!--Foto-->
-        <div id="4">
-            <img id="foto_pcpal" src="/images/foto_pcpal.png" alt="">
-        </div>
-        <!--Redes Sociales-->
-        <div id="5">
-            <a id="fb" href=""><img src="/images/fb_icon.png" alt=""></a>
-            <a id="tw" href=""><img src="/images/tw_icon.png" alt=""></a>
-            <a id="ig" href=""><img src="/images/ig_icon.png" alt=""></a>
-            <a id="yt" href=""><img src="/images/yt_icon.png" alt=""></a>
-            <a id="gh" href=""><img src="/images/gh_icon.png" alt=""></a>
-        </div>
+    
     </body>
-  </html>
+    </html>

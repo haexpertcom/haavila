@@ -1,53 +1,97 @@
 * {
-    /*background-color: black;*/
-    padding: 0px;
-    margin: 0px;
-}
-body {
-    background-color: #1e0745;
-    color: white;
+  background-color: #1e0745;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
-h1 {
-    font-family: helvetica;
-    color:burlywood;
-    font-size: 60px;
-    text-align: right;
+.ContenedorPcpal {
+  color: blue;
 }
 
-h4 {
-    font-family: arial;
-    color: white;
-    font-size: 15px;
-    text-align: right;
+.Logo {
+  margin: 25px;
+  width: 170px;
+  height: 147px;
 }
 
-#logo_pcpal {
-    width: 180px;
-    margin: 20px;
+.Logo__Img {
+  width: 170px;
 }
 
-#foto_pcpal {
-    height: 500px;
-    margin: 30px;
+.DatoSup {
+  width: 100px;
+  color: white;
 }
 
-#fb img {
-    width: 60px;
+.DatoSup_Celular {
+  background-color: gray;
 }
 
-#tw img {
-    width: 60px;
+.DatoSup_Mail {
+  background-color: gray;
 }
 
-#ig img {
-    width: 60px;
+.CajaCentral {
+  background-color: black;
+  border: solid white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: 800px;
 }
 
-#yt img {
-    width: 60px;
+.CajaCentral__Cabecera {
+  font-size: 80px;
+  color: burlywood;
+  background-color: gray;
 }
 
-#gh img {
-    width: 60px;
+.CajaCentral__Subcabecera {
+  font-size: 20px;
+  color: white;
+  background-color: gray;
+}
+
+.CajaCentral__FotoPcpal {
+  background-color: gray;
+  width: 300px;
+}
+
+.CajaCentral__FotoPcpal--Img {
+  width: 300px;
+}
+
+.BotonContacto {
+  background-color: gray;
+}
+
+.BotonSaberMas {
+  background-color: gray;
+}
+
+.CajaRS {
+  background-color: black;
+}
+
+.CajaRS__Fb {
+  width: 60px;
+  background-color: gray;
+}
+
+.CajaRS__Ig {
+  width: 60px;
+  background-color: gray;
+}
+
+.CajaRS__Yt {
+  width: 60px;
+  background-color: gray;
+}
+
+.CajaRS__Gh {
+  width: 60px;
+  background-color: gray;
 }
